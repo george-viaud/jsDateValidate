@@ -1,3 +1,9 @@
+/*
+Simple JS Date validator
+GV 2016
+Information is not property.
+Use as you see fit.
+*/
 function isValidDate(y, m, d)
 {
   y = parseInt(y, 10);
