@@ -6,5 +6,5 @@ function isValidDate(y, m, d)
   
   dateObj = new Date(y, m, d);
   
-  return (d == dateObj.getDate() && m == dateObj.getMonth() && y == dateObj.getFullYear());
+  return (d === dateObj.getDate() && m === dateObj.getMonth() && y === dateObj.getFullYear());
 }
